@@ -3,12 +3,9 @@ def valid_move?(board, index)
 
 if position. to_i.between?(1, 9) && position_taken?
   return true 
-  elsif board[index] == " "
+elsif board[index] == " " || board[index] == "" || board[index] == nil
     return false
-  elsif board[index] == ""
-    return false
-  elsif board[index] == nil
-    return false
+    
   else
     return true
   end
