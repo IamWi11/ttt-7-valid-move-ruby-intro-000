@@ -12,7 +12,7 @@ elsif board[index] == " " || board[index] == "" || board[index] == nil
   end
 end
 end
-  
+
 
 # code your #valid_move? method here
 
